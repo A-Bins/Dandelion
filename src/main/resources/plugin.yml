@@ -1,0 +1,16 @@
+name: Dandelion
+version: 1.0
+main: kr.abins.dandelion.Dandelion
+
+api-version: 1.20
+
+prefix: Dandelion
+load: STARTUP
+
+authors: [A_bins]
+
+description: Minecraft with TypeScript Inspired by LuaJ
+
+libraries:
+  - org.graalvm.polyglot:polyglot:23.1.1
+  - org.graalvm.polyglot:js:23.1.1
